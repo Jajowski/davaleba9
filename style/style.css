@@ -1,0 +1,233 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    width: 1440px;
+    
+    background-image: url(../img/surati1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 655px;
+    margin-right: 227px;   
+    
+}
+
+
+header ul  a{
+    font-size: 18px;
+    color: #000000;
+    
+  
+    
+   
+    
+}
+.veganuri{
+    width: 228px;
+    height: 70px;
+    background-color: #C4C4C4 ;
+    border-radius: 0 35px;
+    text-align: center;
+    padding-top: 24px;
+    
+   
+    
+}
+.veganuri:hover{
+    background-color: #79B331;
+    
+}
+.magaziebi{
+       width: 124px;
+    height: 70px;
+    background-color: #C4C4C4 ;
+    border-radius: 0 35px;
+    padding-top: 24px;
+  
+    padding-left: 18px;
+    
+
+}
+.shop{
+     width: 72px;
+    height: 70px;
+    background-color: #C4C4C4 ;
+    border-radius: 0 35px;
+    padding-top: 24px;
+    padding-left: 18px;
+   
+    
+
+}
+.akciis{
+    margin-top: 109px;
+    margin-left: 846px;
+    width: 402px;
+    height: 164px;
+    /* background-color: #1214af; */
+    text-align: center;
+   
+    
+   
+    
+    
+}
+.akci{
+    font-size: 18px;
+    margin: 0;
+    padding: o;
+    text-align: center;
+  
+    
+    
+    
+}
+.dro{
+    font-size: 36px;
+}
+.wre{
+    animation: wretriali 2s infinite;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    
+}
+@keyframes wretriali {
+    0%{top: 0; left:0; }
+    25%{top:0; left:370px}
+    50%{top: 132px; left:370px}
+    75%{top:132px; left:0}
+    100%{top: 0; left:0; }
+}
+
+.ghero{
+    height: 429px;
+    width: 2px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    
+}
+.miighe, .ucximo{
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    
+}
+.potoli
+{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+}
+.paragrapebi{
+    width: 420px;
+    height: 48px;
+}
+.martkutxedi{
+  width: 1440px;
+    position: relative;
+    
+}
+
+.ertianierti, .ertianiori, .ertianisami, .ertianiotxi{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.potolimeore{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    transform: rotate(90deg);
+    margin-right: 3px;
+}
+.ertianierti{
+    left: 16%;
+    top: 0px;
+
+}
+
+.ertianierti p:hover{
+    color: #79B331;
+
+}
+.ertianierti .potoli:hover{
+    background-color: #79B331;
+}
+.ertianiori{
+    left: 50%;
+    top:100px;
+
+}
+
+.ertianisami{
+    left: 16%;
+    top: 200px;
+    
+}
+.ertianiotxi{
+    left: 50%;
+    top:300px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+    header ul{
+        width: 100%;
+        margin-left: 215px;
+    }
+    
+    .magaziebi{
+      margin-left: -150px;
+    }
+  
+    .akciis{
+        margin-left: 540px;
+    }
+    .potolimeore{
+        transform: rotate(180deg);
+    }
+    /* .ertianierti, .ertianiori, .ertianisami, .ertianiotxi{
+        flex-direction: row-reverse;
+    } */
+    /* flex direction row reverce */
+    .martkutxedi{
+        display: block;
+    }
+    .ertianiori, .ertianiotxi{
+        
+        flex-direction: row-reverse;
+    }
+    .ghero{
+        margin-right: 100px;
+    }
+    .ertianierti, .ertianiori, .ertianisami, .ertianiotxi{
+        left: 0px;
+        right: 99px;
+    
+    }
+    .ertianierti, .ertianisami{
+        left:59%
+    }
+    
+}
+
+
